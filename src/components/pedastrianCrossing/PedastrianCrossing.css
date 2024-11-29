@@ -1,0 +1,59 @@
+.pedastrian-up {
+	width: 81%;
+  height: 50px;
+	background: repeating-linear-gradient(
+		90deg,
+		transparent,
+		transparent 20px,
+		#fff 20px,
+		#fff 36px
+	);
+	position: absolute;
+	top: 29%;
+	left: 0;
+}
+
+.pedastrian-bottom {
+	width: 81%;
+  height: 50px;
+	background: repeating-linear-gradient(
+		90deg,
+		transparent,
+		transparent 20px,
+		#fff 20px,
+		#fff 36px
+	);
+	position: absolute;
+	bottom: 28%;
+	left: 0;
+}
+
+.pedastrian-left {
+  width: 3%;
+  height: 100%;
+	background: repeating-linear-gradient(
+		0deg,
+		transparent,
+		transparent 20px,
+		#fff 20px,
+		#fff 34px
+	);
+	position: absolute;
+	top: 1%;
+	left: 31%;
+}
+
+.pedastrian-right {
+  width: 3%;
+  height: 100%;
+	background: repeating-linear-gradient(
+		0deg,
+		transparent,
+		transparent 20px,
+		#fff 20px,
+		#fff 34px
+	);
+	position: absolute;
+	top: 1%;
+	right: 30%;
+}

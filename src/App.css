@@ -1,0 +1,49 @@
+.bg-image-container {
+	display: flex;
+	position: relative;
+	overflow: hidden;
+}
+
+.bg-image {
+	flex-basis: 100%;
+	max-width: 100%;
+	max-height: 100vh;
+	object-fit: fill;
+}
+
+.car {
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+
+.tidel-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 25.8%;
+	height: 24.2%;
+	border-bottom-right-radius: 16%;
+	overflow: hidden;
+}
+
+.tidel {
+	object-fit: fill;
+}
+
+.station-container {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 24.8%;
+	height: 24.2%;
+	border-bottom-left-radius: 16%;
+	overflow: hidden;
+}
+
+.station {
+	object-fit: fill;
+}

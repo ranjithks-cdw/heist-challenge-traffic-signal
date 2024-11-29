@@ -1,0 +1,17 @@
+.road-tb {
+  width: 39.5%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 34.5%;
+  background: transparent;
+}
+
+.road-lr {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  background: transparent;
+}

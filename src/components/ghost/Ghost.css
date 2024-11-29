@@ -1,0 +1,48 @@
+.ghost-container {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 5%;
+  z-index: 999;
+  animation: gc 13s linear infinite alternate;
+}
+
+.ghost {
+  animation: g 7s linear infinite alternate;
+}
+
+.gc-1 {
+  animation-duration: 10s;
+}
+
+.g-1 {
+  animation-duration: 12s;
+}
+
+.gc-2 {
+  animation-duration: 17s;
+}
+
+.g-2 {
+  animation-duration: 22s;
+}
+
+.gc-3 {
+  animation-duration: 22s;
+}
+
+.g-3 {
+  animation-duration: 17s;
+}
+
+@keyframes gc {
+  100% {
+    transform: translateX(calc(100vw - 100px) );
+  }
+}
+
+@keyframes g {
+  100% {
+    transform: translateY(calc(100vh - 100px) );
+  }
+}
